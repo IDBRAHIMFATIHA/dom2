@@ -3,48 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart Checkpoint</title>
+    <title>Color Changer</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <div class="shopping-cart">
-        <h1 class="title">My Cart</h1>
-
-        <div class="list-items">
-            <div class="item">
-                <div class="buttons">
-                    <span class="delete-btn"><i class="fas fa-trash-alt"></i></span>
-                    <span class="like-btn"><i class="fas fa-heart"></i></span>
-                </div>
-                <div class="name">iPhone 15 Pro</div>
-                <div class="quantity-container">
-                    <button class="minus-btn">-</button>
-                    <span class="quantity">1</span>
-                    <button class="plus-btn">+</button>
-                </div>
-                <div class="total-item-price">$<span class="unit-price">999</span></div>
-            </div>
-
-            <div class="item">
-                <div class="buttons">
-                    <span class="delete-btn"><i class="fas fa-trash-alt"></i></span>
-                    <span class="like-btn"><i class="fas fa-heart"></i></span>
-                </div>
-                <div class="name">AirPods Max</div>
-                <div class="quantity-container">
-                    <button class="minus-btn">-</button>
-                    <span class="quantity">1</span>
-                    <button class="plus-btn">+</button>
-                </div>
-                <div class="total-item-price">$<span class="unit-price">549</span></div>
-            </div>
-        </div>
-
-        <div class="final-price-container">
-            Total: $<span id="total-price">1548</span>
-        </div>
+    <div class="container">
+        <h1>Color Changer</h1>
+        
+        <div id="color-box"></div>
+        
+        <button id="change-color-btn">Change Color</button>
     </div>
 
     <script src="main.js"></script>
